@@ -3,13 +3,13 @@ Chap5 Bit Manipulation
 
 - Java Bitwise and Bit Shift Operators
 
-	~       Unary bitwise complement
-	<<      Signed left shift
-	>>      Signed right shift
-	>>>     Unsigned right shift
-	&       Bitwise AND
-	^       Bitwise exclusive OR
-	|       Bitwise inclusive OR
+	- ~	Unary bitwise complement
+	- <<      Signed left shift
+	- >>      Signed right shift
+	- >>>     Unsigned right shift
+	- &       Bitwise AND
+	- ^       Bitwise exclusive OR
+	- |       Bitwise inclusive OR
 
 - Get bit
 	use & and 0
@@ -27,5 +27,5 @@ Chap5 Bit Manipulation
 	A|B
 	
 - About shift bits: 
-	-to point to bit[i]: shift <<i
-	-to preserve bit[j:i]: bit<<(j+1) | bit<<i
+	- to point to bit[i]: shift <<i
+	- to preserve bit[j:i]: bit<<(j+1) | bit<<i

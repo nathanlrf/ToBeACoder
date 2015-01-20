@@ -43,5 +43,6 @@ Chap5 Bit Manipulation
 		cnt++;
 	}
 	```
-		- if C last bit C[0] = 1, this operation will consume the last bit
-		- if C last bit C[0] = 0, C-1 will flip all the bit until [p], where C[p] = 1, so this operation will also consume one 1 in C
+	
+	- if C last bit C[0] = 1, this operation will consume the last bit
+	- if C last bit C[0] = 0, C-1 will flip all the bit until [p], where C[p] = 1, so this operation will also consume one 1 in C

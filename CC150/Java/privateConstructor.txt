@@ -1,0 +1,6 @@
+In term of inheritance, what is the effect of keeping a constructor private?
+
+Suppose class A has a private constructor.
+To access the constructor only A can, or if A is an inner class of Q then other inner class in Q also can.
+A can only be inherited by its own or its parent's inner classes.
+(Singleton used private constructor)

@@ -1,0 +1,5 @@
+14.2 In Java, deoes the finally block get executed if we insert a return statement inside the try block of a try-catch-finally?
+
+Yes.
+The return value in finally{} will always be the return value for the whole function. It is bad practice.
+The only time finally won't be called is if you call System.exit() or if the JVM crashes first.

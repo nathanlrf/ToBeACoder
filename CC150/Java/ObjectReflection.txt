@@ -1,0 +1,15 @@
+14.5 Explain what object reflection is in Java ad why it is useful.
+
+Object reflection:
+learn on [Oracle Tutorial](http://docs.oracle.com/javase/tutorial/reflect/class/classNew.html)
+
+provide a way to get reflective info about classes and objects, and perform actions such as:
+- to get info about the method/fields inside class at runtime
+- to create a new instance of a class
+- to get/set object fields directly by getting field reference, regardless of what the access modifier is.
+
+it is useful for:
+- obeserving/manipulating runtime behavior of application
+- debugging/testing, can access to methods, constructors and fields
+- call methods we dont't know by name: given a lass name, paramsfor constructor and a method name, we can 
+use this info to create an object and call a method.

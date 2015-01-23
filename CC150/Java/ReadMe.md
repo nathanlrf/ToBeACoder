@@ -45,6 +45,6 @@ Chap 14 Java : the language and syntax
 	
 3. Collection framework:
 	1. ArrayList: dynamically resizing array(double its size)
-	2. Vector: similar to ArrayList, except that it is synchronized.
+	2. [Vector](http://docs.oracle.com/javase/7/docs/api/java/util/Vector.html): similar to ArrayList, except that it is synchronized.
 	3. [LinkedList](http://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html): seems to be double linked list
-	4. HashMap
+	4. [HashMap](http://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)
